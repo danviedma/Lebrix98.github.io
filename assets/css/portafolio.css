@@ -202,7 +202,8 @@
 }
 
 .Footer {
-  background-color: #faf6f0;
+  /* background-color: #faf6f0; */
+  background-color: #f4dfc8;
   display: flex;
   font-size: 18px;
   justify-content: center;
