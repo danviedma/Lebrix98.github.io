@@ -146,8 +146,63 @@
   }
 }
 
-.Footer {
+.Forked_Proyects {
   background-color: #f4eae0;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  padding: 3rem 0rem;
+
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  div {
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding: 2rem;
+
+    a {
+      margin-right: 2rem;
+      text-decoration: none;
+      color: #f4eae0;
+      padding: 2rem;
+      background-color: #000000;
+      border-radius: 35px;
+      font-size: 2rem;
+    }
+
+    a:hover {
+      color: #000000;
+      background-color: white;
+      border: 1px solid #000000;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    
+    div {
+      display: flex;
+      flex-flow: column wrap;
+      margin-top: 0;
+      padding: 2rem 2rem 0rem 2rem;
+      a {
+        margin-right: 0;
+        margin-bottom: 2rem;
+        padding: 2rem;
+        font-size: 1rem;
+      }
+      a:nth-child(2) {
+        margin-bottom: 0rem;
+      }
+    }
+
+  }
+}
+
+.Footer {
+  background-color: #faf6f0;
   display: flex;
   font-size: 18px;
   justify-content: center;
